@@ -89,6 +89,8 @@ const Pizza = ({ pizza }) => {
                     >
                         <IoMdClose className="text-3xl text-orange" />
                     </div>
+                    {/* pizza details */}
+                    <PizzaDetails pizza={pizza} modal={modal} setModal={setModal} />
                 </Modal>
             )}
         </div>
